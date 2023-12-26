@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT 2</title>
+    <link rel="stylesheet" href="assi_2.css" />
+    <style>
+      * {
+        margin: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      a {
+        font-family: cursive;
+      }
+      .internal_use {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        border-radius: 6px;
+      }
+      .potato {
+        background-color: crimson;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+      }
+      .potato h1 {
+        color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="top" href="inline.html">INLINE CSS VIEW</a>
+    <div class="external_use">EXTERNAL USE</div>
+    <div class="potato">
+      <h1>POTATOES</h1>
+      <p>
+        There are dozens of different potato varieties.They are usually
+        described as early, second early and maincrop.
+      </p>
+    </div>
+    <div class="internal_use">INTERNAL USE</div>
+    <div class="potato">
+      <h1>POTATOES</h1>
+      <p>
+        There are dozens of different potato varieties.They are usually
+        described as early, second early and maincrop.
+      </p>
+      <p><a href="#top">TOP OF PAGE</a></p>
+    </div>
+  </body>
+</html>
